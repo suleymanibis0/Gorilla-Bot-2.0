@@ -181,13 +181,6 @@ if __name__ == "__main__":
     db.add_item("Burak Yılmaz", 80000, "Koleksiyon eşyası.")
     db.add_item("İbo'nun Steteskopu", 4500000, "Koleksiyon eşyası.")
 
-    db.update_balance("763792915742720041",500000)
-    db.update_balance("317318237018914826",500000)
-    db.update_balance("840325381935333396",500000)
-    db.update_balance("817041365066055701",500000)
-    db.update_balance("699136507893645413",500000)
-    db.update_balance("782595820628738058",500000)
-
     logger.info("Market eşyaları eklendi.")
     
     logger.info("\n--- Test: Market içeriği ---")
