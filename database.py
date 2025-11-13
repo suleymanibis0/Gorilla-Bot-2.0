@@ -175,7 +175,19 @@ if __name__ == "__main__":
     
     
     logger.info("Market eşyaları ekleniyor (varsa geçilecek)...")
-    db.update_balance(317318237018914826, 1000000000000000000000000000000)
+    db.add_item("Hacı'nın Aleti", 50000, "Koleksiyon eşyası.")
+    db.add_item("Benim Adım Cafer", 75000, "Koleksiyon eşyası.")
+    db.add_item("Umidi Zı Babo Men", 100000, "Günlük ödülünüzü 9000 🪙 ve 3 kasaya çıkarır.")
+    db.add_item("Burak Yılmaz", 80000, "Koleksiyon eşyası.")
+    db.add_item("İbo'nun Steteskopu", 4500000, "Koleksiyon eşyası.")
+
+    db.update_balance("763792915742720041",500000)
+    db.update_balance("317318237018914826",500000)
+    db.update_balance("840325381935333396",500000)
+    db.update_balance("817041365066055701",500000)
+    db.update_balance("699136507893645413",500000)
+    db.update_balance("782595820628738058",500000)
+
     logger.info("Market eşyaları eklendi.")
     
     logger.info("\n--- Test: Market içeriği ---")

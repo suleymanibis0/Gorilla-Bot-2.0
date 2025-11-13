@@ -3353,3 +3353,17 @@ discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
 2025-11-13 23:58:59,594 - [INFO    ] - root            - 'music.py' başarıyla yüklendi.
 2025-11-13 23:58:59,594 - [INFO    ] - root            - Tüm coglar yüklendi.
 2025-11-13 23:59:03,108 - [INFO    ] - root            - Giriş yapıldı!
+2025-11-14 01:18:38,736 - [ERROR   ] - root            - HATA: DISCORD_TOKEN bulunamadı. .env dosyasını kontrol edin.
+2025-11-14 01:19:48,651 - [INFO    ] - cogs.economy    - 'cogs.economy' adlı cog yüklendi.
+2025-11-14 01:19:48,651 - [INFO    ] - root            - 'economy.py' başarıyla yüklendi.
+2025-11-14 01:19:52,477 - [INFO    ] - cogs.fun        - 414 adet şarkı başarıyla yüklendi.
+2025-11-14 01:19:52,477 - [INFO    ] - cogs.fun        - 'cogs.fun' adlı cog yüklendi.
+2025-11-14 01:19:52,477 - [INFO    ] - root            - 'fun.py' başarıyla yüklendi.
+2025-11-14 01:19:52,488 - [INFO    ] - root            - 'information.py' başarıyla yüklendi.
+2025-11-14 01:19:52,488 - [INFO    ] - cogs.moderation - 'cogs.moderation' adlı cog yüklendi.
+2025-11-14 01:19:52,488 - [INFO    ] - root            - 'moderation.py' başarıyla yüklendi.
+2025-11-14 01:19:56,394 - [INFO    ] - cogs.music      - 414 adet şarkı başarıyla yüklendi.
+2025-11-14 01:19:56,394 - [INFO    ] - cogs.music      - 'cogs.music' cog yüklendi.
+2025-11-14 01:19:56,394 - [INFO    ] - root            - 'music.py' başarıyla yüklendi.
+2025-11-14 01:19:56,394 - [INFO    ] - root            - Tüm coglar yüklendi.
+2025-11-14 01:19:59,769 - [INFO    ] - root            - Giriş yapıldı!

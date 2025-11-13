@@ -1,1 +1,9 @@
+# Sanal Ortam Klasörü
+venv/
+__pycache__/
+
+# Gizli Çevre Değişkenleri
 .env
+
+# Log Dosyaları
+*.log
