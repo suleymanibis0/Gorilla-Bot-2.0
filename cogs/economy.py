@@ -444,7 +444,7 @@ class Ekonomi(commands.Cog):
 
         new_balance = self.db.update_balance(id, -miktar)
         msg = await ctx.reply("🪙 Parayı attım bir saniye...")
-        asyncio.sleep(1)
+        await asyncio.sleep(1)
 
         if hamle == result:
             new_balance = self.db.update_balance(id, 3 * miktar)
