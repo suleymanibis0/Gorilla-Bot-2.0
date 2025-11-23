@@ -35,22 +35,22 @@ cd Gorilla-Bot-2.0
 ```
 
 2.  **Gereksinimleri Yükleyin:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Not: Sisteminizde [FFmpeg](https://ffmpeg.org/download.html)'in kurulu ve PATH'e ekli olduğundan emin olun.)*
+```bash
+pip install -r requirements.txt
+```
+*(Not: Sisteminizde [FFmpeg](https://ffmpeg.org/download.html)'in kurulu ve PATH'e ekli olduğundan emin olun.)*
 
 3.  **Çevresel Değişkenleri Ayarlayın:**
-    * `.env.example` dosyasının adını `.env` olarak değiştirin.
-    * İçine Discord Token'ınızı ekleyin:
-      ```env
-      DISCORD_TOKEN=sizin_gizli_tokeniniz_buraya
-      ```
+* `.env.example` dosyasının adını `.env` olarak değiştirin.
+* İçine Discord Token'ınızı ekleyin:
+  ```env
+  DISCORD_TOKEN=sizin_gizli_tokeniniz_buraya
+  ```
 
 4.  **Botu Başlatın:**
-    ```bash
-    python main.py
-    ```
+```bash
+python main.py
+```
 
 ## 🤝 Katkıda Bulunma
 
