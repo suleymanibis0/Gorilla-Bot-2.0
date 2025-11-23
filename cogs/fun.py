@@ -18,8 +18,8 @@ class Eğlence(commands.Cog):
     def __init__(self, bot: commands.Bot):
         """Bu Cog'un yapıcı (initializer) metodudur."""
         self.bot = bot
-        self.giphy_api = "CmufnE1lV4KaDlJd0bKw2FULo7LjFK0i"
-        self.client_key= "gorillabot"
+        self.giphy_api = "YOUR_GIPHY_API_KEY"
+        self.client_key= "YOUR_CLIENT_KEY"
         try:
             self.songs = cv.get_songs()
             if self.songs is None:
