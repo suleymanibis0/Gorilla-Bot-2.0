@@ -31,7 +31,7 @@ discord_logger = logging.getLogger('discord')
 discord_logger.setLevel(logging.WARNING)
 
 load_dotenv()
-BOT_TOKEN = os.getenv('DISCORD_TOKEN')
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 
 intents = discord.Intents.default()
