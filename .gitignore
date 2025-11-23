@@ -1,9 +1,15 @@
-# Sanal Ortam Klasörü
-venv/
-__pycache__/
-
-# Gizli Çevre Değişkenleri
+# Gizli Dosyalar
 .env
 
-# Log Dosyaları
+# Gereksiz Sistem Dosyaları
+__pycache__/
+*.pyc
+
+# Sanal Ortam
+venv/
+.venv/
+env/
+
+# Loglar ve Veritabanı
 *.log
+*.db
