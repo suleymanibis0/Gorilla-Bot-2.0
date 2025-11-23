@@ -28,8 +28,37 @@ Bu botu kendi bilgisayarınızda veya sunucunuzda çalıştırmak için aşağı
 * Python 3.8 veya üzeri
 * Git
 
-### 1. Repoyu Klonlayın
+1. **Repoyu Klonlayın**
 ```bash
 git clone [https://github.com/suleymanibis0/Gorilla-Bot-2.0.git](https://github.com/suleymanibis0/Gorilla-Bot-2.0.git)
 cd Gorilla-Bot-2.0
 ```
+
+2.  **Gereksinimleri Yükleyin:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(Not: Sisteminizde [FFmpeg](https://ffmpeg.org/download.html)'in kurulu ve PATH'e ekli olduğundan emin olun.)*
+
+3.  **Çevresel Değişkenleri Ayarlayın:**
+    * `.env.example` dosyasının adını `.env` olarak değiştirin.
+    * İçine Discord Token'ınızı ekleyin:
+      ```env
+      DISCORD_TOKEN=sizin_gizli_tokeniniz_buraya
+      ```
+
+4.  **Botu Başlatın:**
+    ```bash
+    python main.py
+    ```
+
+## 🤝 Katkıda Bulunma
+
+Bu proje açık kaynaklıdır ve her türlü katkıya açıktır. Pull Request göndermeden önce lütfen yeni bir özellik dalı (branch) açtığınızdan emin olun.
+
+## 📄 Lisans
+
+Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
+
+---
+Developed with 🦍 by Süleyman <3
